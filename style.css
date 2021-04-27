@@ -354,7 +354,7 @@ body {
   font-style: italic;
   width: 1050px;
   margin: 0 auto;
-  background-color: rgb(211, 222, 223);
+  background-color: rgb(225, 233, 233);
 }
 
 ul {
@@ -498,9 +498,9 @@ h2 {
   opacity: 70%;
 }
 .work-ex p {
-  background-color: rgb(199, 158, 240);
+  background-color: rgb(196, 191, 202);
   width: 390px;
-  color:rgb(247, 246, 243);
+  color:rgb(29, 28, 27);
   text-align: center;
   border-radius: 5%;
 }
@@ -515,13 +515,18 @@ padding: 10px 0;
 }
 
 footer {
-  height: 200px;
+  
+  color: rgb(71, 61, 61);
+  width: none;
+  height: 60px;
   text-align: center;
   padding-top: 50px;
   padding-bottom: 50px;
+  /* background-color: rgb(57, 46, 73); */
 }
 
 footer img {
-  width: 100px;
+  width: 50px;
   border-radius: 50%;
 }
+
