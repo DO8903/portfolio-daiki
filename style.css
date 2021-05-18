@@ -350,6 +350,11 @@ template {
 }
 /*リセットcss↑*/
 
+/* * {
+  box-sizing: border-box;
+} */
+
+
 body {
   font-style: italic;
   width: 1050px;
@@ -505,15 +510,6 @@ h2 {
   border-radius: 5%;
 }
 
-.comment {
-text-align: center;
-font-size: 18px;
-color:rgb(116, 71, 3);
-margin-top: 60px;
-margin-bottom: 10px;
-padding: 10px 0;
-}
-
 footer {
   
   color: rgb(71, 61, 61);
@@ -529,4 +525,3 @@ footer img {
   width: 50px;
   border-radius: 50%;
 }
-
