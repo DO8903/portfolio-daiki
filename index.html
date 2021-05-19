@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DAISAITO</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="header-logo">
+        <h1>DAISAITO</h1>
+        <p>DAIKIのポートフォリオサイト</p>
+      </div>
+      <div class="header-right">
+        <div class="header-nav">
+          <ul class="navigation">
+            <li><a href="#id_profile">Profile</a></li>
+            <li><a href="#id_skills">Skills</a></li>
+            <li><a href="#id_works">Works</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class="top-wrapper">
+    <div class="container">
+    <img class="front-img" src="https://cdn.pixabay.com/photo/2014/06/04/17/53/piano-362251_1280.jpg">
+    </div>
+  </div>
+  <div class="profile-wrapper">
+    <div class="container">
+      <div   class="profile">
+        <h2 id="id_profile">-Profile-</h2>
+        <img class="icon-picture" src="./images/panda-image.jpg">
+      </div>
+      <div class="main-profile">
+        <div class="sub-profile">
+          <ruby>
+          大倉大樹<rt>おおくらだいき</rt>
+          </ruby>
+          <p>1998年　11月9日</p>
+          <p>神奈川大学　経済学部</p>
+        </div>
+        <div class="profile-ex">
+          <p>幼少期からピアノを8年間習い小中学生時代は野球部、高校生時代は新しいことにチャレンジしたいという考えから未経験ながらハンドボール部に3年間所属していました。大学では経済学部を専攻しておりプログラミング経験は無かったものの独学でプログラミングを学んでいます。趣味は野球やサッカーといったスポーツ観戦と映画鑑賞です。</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="skill-wrapper">
+    <h2 id="id_skills">-Skills-</h2>
+    <div class="skill-contents">
+      <div class="skill">
+        <img class="skill-icon" src="./images/html-image.png">
+        <img class="skill-icon" src="./images/css-image.png">
+        <div class="skill-text">
+          <p>HTML5とCSS3をオンラインサービスを使い学習しました。最初は基礎を固めたかったのでBootstrap等のフレームワークは使わず、このポートフォリオサイトも純粋なCSSを使って設計しました。</p>
+        </div>
+      </div>
+      <div class="skill">
+        <img class="skill-icon" src="./images/js-image.png">
+        <div class="skill-text">
+          <p>初めて学習した言語で、現在はバニラのJavaScriptを学習しています。学習のアウトプットのためにおみくじアプリやクイズアプリ、ローカルストレージを使用したTodoアプリを作成しました。</p>
+        </div>
+      </div>
+      <div class="skill">
+        <img class="skill-icon" src="./images/php-image.png">
+        <div class="skill-text">
+          <p>サーバーサイド側の言語も興味があったのでPHPを選びました。動画教材等で学習し、デプロイはまだ出来ていませんがPHPとMySQLを使ってtwitterのようなログイン機能とメッセージ投稿機能を搭載した掲示板を作成しました。</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="work-wrapper">
+    <h2 id="id_works">-Works-</h2>
+    <div class="work-contents">
+      <div class="work">
+        <a rel="noopener" href="https://do8903.github.io/quiz-practice/" target="_blank"><img class="work-btn"  src="./images/quiz-image.png"></a>
+        <div class="work-text">
+          <p>手を動かして作った最初の作品でHTML＆CSSとJavaScriptを使って作成したクイズゲームです。クイズは3問用意し、最後にwindow.alertを使って正解数を表示させました。</p>
+        </div>
+      </div>
+      <div class="work">
+        <a rel="noopener" href="#"><img class="work-btn" src="./images/message-img.png"></a>
+        <div class="work-text">
+          <p>PHPとMySQLを使った簡易掲示板です。短文の投稿機能や投稿されたメッセージへの返信、ページネーション機能があります。また、MySQLでログインログアウト機能の実装や同メールアドレスの重複登録の防止等が機能として搭載されています。</p>
+        </div>
+      </div>
+      <div class="work">
+        <a rel="noopener" href="https://do8903.github.io/todolist.practice/" target="_blank"><img class="work-btn"  src="./images/todo-image.png"></a>
+        <div class="work-text">
+          <p>Youtubeに投稿されていたTodoアプリを真似して作成しました。使用言語はJavaScriptでアニメーションを搭載したり、ローカルストレージにリストを保存することによってページを更新しても未完のリストを表示してくれる機能を搭載しています。</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <div class="infomation"></div>
+    <a href="https://twitter.com/_shakpan_" target="_blank" ><img src="./images/twitter-image.jpeg"></a>
+    <p>contact</p>
+  </footer>
+</body>
+</html>
