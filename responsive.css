@@ -1,0 +1,129 @@
+/* メディアクエリ */
+@media screen and (max-width: 960px) {
+}
+
+
+@media screen and (max-width: 480px) {
+
+  body {
+    width: 100%;
+  }
+
+  header {
+    height: 50px;
+    margin-top: 18px;
+  }
+
+  .header-logo h1{
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .navigation li {
+    display: none;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+
+  .top-wrapper {
+    height: 250px;
+  }
+
+  .front-img {
+    width: 100%;
+    height: auto;
+    text-align: center;
+  }
+
+  h2 {
+    padding: 10px 0;
+    font-size: 30px;  
+  }
+
+  .sub-profile {
+    padding-top: 15px;
+    padding-left: 80px;
+    font-weight: bold;
+  }  
+  
+  .icon-picture {
+    width: 100px;
+    height: auto;
+    position: relative;
+    top: 20px;
+    left: 30px;  
+  }
+
+  .profile-ex {
+    width: auto;
+    font-size: 13px;
+  }
+
+  .skill-wrapper {
+    height: 960px;
+    margin-top: 70px;
+  }  
+
+  .skill-contents {
+    display: flex;
+    flex-flow: column;
+    align-items: center
+  }
+  
+  .skill {
+    width: 260px;
+    height: 350px;
+    padding: none;
+    display: inline-block;
+    text-align: center;
+    border: none;
+  }
+  
+  .skill+ .skill {
+    border: none;
+  }
+  
+  .skill-text {
+    font-size: 15px;
+    padding: 10px 0 10px 0;
+    opacity: 0.5;
+  }
+  
+  .work-wrapper {
+    height: 1060px;
+  }
+  
+  .work-contents {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    height: 460px;
+  }  
+
+  .work {
+    width: 330px;
+    height: 440px;
+    display: inline-block;
+    text-align: center;
+  }
+  
+  .work-btn {
+    width: 270px;
+    height: 170px;
+    border:solid 2px #ccc;
+    margin-bottom: 10px;
+  }
+    
+  .work-text {
+    display: inline-block;
+    text-align: left;
+    font-size: 14px;
+    margin-bottom: 24px;
+    opacity: 0.5;
+    background-color: ivory;
+    border-radius: 10%;
+  }
+  
+}
