@@ -549,3 +549,9 @@ footer img {
   width: 50px;
   border-radius: 50%;
 }
+
+footer p {
+  font-size: 12px;
+  opacity: 0.5;
+  margin-top: 50px;
+}
